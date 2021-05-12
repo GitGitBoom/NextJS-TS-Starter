@@ -1,0 +1,46 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "strict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noEmit": true,
+    "esModuleInterop": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "resolveJsonModule": true,
+    "isolatedModules": true,
+    "jsx": "preserve",
+    "baseUrl": ".",
+    "paths": {
+      "@/atoms": ["./src/components/atoms"],
+      "@/atoms/*": ["./src/components/atoms/*"],
+      "@/molecules": ["./src/components/molecules"],
+      "@/molecules/*": ["./src/components/molecules/*"],
+      "@/organisms": ["./src/components/organisms"],
+      "@/organisms/*": ["./src/components/organisms/*"],
+      "@/templates": ["./src/components/templates"],
+      "@/templates/*": ["./src/components/templates/*"],
+      "@/components/*": ["./src/components/*"],
+      "@/middleware/*": ["./src/middleware/*"],
+      "@/models/*": ["./src/models/*"],
+      "@/styles/*": ["./src/styles/*"],
+      "@/config/*": ["./src/config/*"],
+      "@/utils/*": ["./src/utils/*"]
+    }
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+, "pages/api/auth/[...nextauth].js"  ],
+  "exclude": [
+    "node_modules"
+  ]
+}
