@@ -30,7 +30,7 @@
     "joi": "^17.4.0",
     "lodash": "^4.17.21",
     "mongodb": "^3.6.4",
-    "mongoose": "^5.12.3",
+    "mongoose": "^6.0.4",
     "next": "^10.2.1",
     "next-auth": "^3.11.2",
     "next-connect": "^0.10.0",
